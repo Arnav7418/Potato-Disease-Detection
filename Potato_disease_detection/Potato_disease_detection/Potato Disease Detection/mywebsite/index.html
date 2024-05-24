@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Farm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="newstyle.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <a href = "#" class = "logo"><i class = "i.fas-fa-untensils"></i>Smart farm</a>
+
+        <div class="navop">
+        <nav class="navbar">
+            <a class="active" href="#home">HOME</a>
+            
+            <a href="http://localhost:8000/docs" target="_main">PLANT HEALTH</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="services.html" >SERVICES</a>
+            <a href="ecommerce.html" >SHOP</a>
+            <div class="dropdown">
+                <button class="dropbtn">LOGIN
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="farmer.html" target="_main">Login for Farmers</a>
+                  <a href="consumer.html" target="_main">Login for Consumers</a>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>   
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>    
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>    
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Farmers </span>
+                        <h3>The Sellers</h3>
+                        <p>A farmer is the only man 
+                            in our economy who can buy what he needs 
+                            in a good year and sell what he doesn’t need in a bad year</p>
+                            <a href="http://127.0.0.1:5555/farmer.html#" class="btn">Sell Now</a>
+                    </div>
+                   <div class="image">
+                    <img src="https://im.whatshot.in/img/2020/Apr/istock-870915532-1587033305.jpg" alt="image">
+                   </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>AI model </span>
+                        <h3>been trained </h3>
+                        <p>A farmer's harvest needs to be validated to know if the crop is healthy or not. Once the AI model finds the disease in the crop, the farmer can contact us through the website and we will help him get the solution for the same and avail best necessities to improve his harvest!</p>
+                            <a href="http://localhost:8000/docs" class="btn">Subscribe Now</a>
+                    </div>
+                   <div class="image">
+                    <img src="https://www.abetterchoice.com.au/app/uploads/2019/10/22.10.19-PM.jpg" alt="image">
+                   </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Consumers </span>
+                        <h3>The buyers</h3>
+                        <p>We the consumers are in dire need for quality greens, fruits and healthy plantations</p>
+                            <a href="http://127.0.0.1:5555/consumer.html" class="btn">Order Now</a>
+                    </div>
+                   <div class="image">
+                    <img src="https://miro.medium.com/max/1024/1*GuPZRzN0IBLfyDCfn7-7NA.jpeg" alt="image">
+                   </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <div class="hkda">
+    <section id="about">
+        
+            <h2 id="abouthead">ABOUT US</h2>
+           We are providing the best quality essential crops to the consumers and best quality fertilizers & other resources to the farmers at nominal price 
+           <br><br>
+           We used advance machine learning model to analyse your crops before harvesting to produce the best yield.
+           <br><br>We also provide training for latest farming techniques & efficient usage of the fertilizers.    
+           <br><br><br>
+    </section>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
